@@ -1,0 +1,42 @@
+<svg width="640" height="180" viewBox="0 0 640 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Flux logo</title>
+  <desc id="desc">Fluid motion brand mark and wordmark for Flux social media platform.</desc>
+
+  <defs>
+    <linearGradient id="fluxGradient" x1="18" y1="136" x2="144" y2="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#06B6D4"/>
+      <stop offset="0.45" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#4F46E5"/>
+    </linearGradient>
+    <linearGradient id="fluxGradientSoft" x1="33" y1="42" x2="142" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A78BFA"/>
+      <stop offset="0.55" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="fluxTextGradient" x1="190" y1="42" x2="430" y2="138" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="0.72" stop-color="#312E81"/>
+      <stop offset="1" stop-color="#4F46E5"/>
+    </linearGradient>
+    <linearGradient id="fluxBackground" x1="20" y1="142" x2="140" y2="18" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="0.42" stop-color="#312E81"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <filter id="softShadow" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#4F46E5" flood-opacity="0.20"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)" transform="translate(8 10)">
+
+    <path d="M53 128C36 101 38 62 60 36C75 18 103 20 122 39" stroke="url(#fluxGradient)" stroke-width="18" stroke-linecap="round" fill="none"/>
+    <path d="M52 52C77 27 112 30 136 54" stroke="url(#fluxGradientSoft)" stroke-width="18" stroke-linecap="round" fill="none"/>
+    <path d="M45 88C72 62 107 67 128 95" stroke="url(#fluxGradient)" stroke-width="18" stroke-linecap="round" fill="none"/>
+    <path d="M84 128C102 109 123 112 139 128" stroke="url(#fluxGradientSoft)" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.84"/>
+    <circle cx="133" cy="54" r="7" fill="#22D3EE"/>
+
+  </g>
+  <text x="184" y="119" fill="url(#fluxTextGradient)" font-family="'Space Grotesk', 'Sora', 'Manrope', 'Inter', Arial, sans-serif" font-size="84" font-weight="800" letter-spacing="-5">Flux</text>
+  <path d="M197 135C248 153 304 153 371 134" stroke="url(#fluxGradientSoft)" stroke-width="5" stroke-linecap="round" opacity="0.78"/>
+</svg>

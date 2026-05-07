@@ -1,16 +1,21 @@
 import logo from './logo.svg'
+import logo_dark from './logo_dark.svg'
 import sample_cover from './sample_cover.jpg'
 import sample_profile from './sample_profile.jpg'
 import bgImage from './bgImage.png'
+import bgImageDark from './bgImageDark.png'
 import group_users from './group_users.png'
 import { Home, MessageCircle, Search, UserIcon, Users } from 'lucide-react'
 import sponsored_img from './sponsored_img.png'
+import { dark } from '@clerk/ui/themes'
 
 export const assets = {
     logo,
+    logo_dark,
     sample_cover,
     sample_profile,
     bgImage,
+    bgImageDark,
     group_users,
     sponsored_img
 }
